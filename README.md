@@ -1,9 +1,15 @@
-# Robustifying Routers Against Input Perturbations for Sparse Mixture-of-Experts Vision Transformers
-Masahiro Kada, Ryota Yoshihashi, Satoshi Ikehata, Rei Kawakami, Ikuro Sato
+# Robustifying Routers Against Input Perturbations for Sparse Mixture-of-Experts Vision Transformers [OJSP, ICASSP 2025]
+Masahiro Kada [1], Ryota Yoshihashi [1], Satoshi Ikehata [1][2], Rei Kawakami [1], Ikuro Sato [1][3]
+
+[1] Institute of Science Tokyo  
+[2] National Institute of Informatics  
+[3] Denso IT Laboratory
 
 ![PRC](.image/demo.png)
 
-This repository contains the code for Robustifying Routers Against Input Perturbations for Sparse Mixture-of-Experts Vision Transformers (PRC). This repository is a fork of [V-MoE](https://github.com/google-research/vmoe). We appreciate the original project and its contributors.
+This repository contains the code for Robustifying Routers Against Input Perturbations for Sparse Mixture-of-Experts Vision Transformers (PRC). This work has been published in [OJSP](https://ieeexplore.ieee.org/document/10858379) and will be presented at ICASSP 2025.
+
+- **Paper:** [10.1109/OJSP.2025.3536853](https://ieeexplore.ieee.org/document/10858379)
 
 ## Abstract
 Mixture of experts with a sparse expert selection rule has been gaining much attention recently because of its scalability without compromising inference time. However, unlike standard neural networks, sparse mixture-of-experts models 
@@ -49,5 +55,7 @@ You can download the trained model checkpoints [here](https://drive.google.com/d
   doi={10.1109/OJSP.2025.3536853}}
 ```
 
-## Funding and Acknowledgments
-This work was supported in part by DENSO IT LAB Recognition and Learning Algorithm Collaborative Research Chair (Tokyo Tech.) through a Research Project “Development of Quality Foundation for Machine-Learning Applications” and in part by JSPS KAKENHI under Grant JP22H03642.
+## Acknowledgements
+This work was supported by JSPS KAKENHI Grant Number JP22H03642 and DENSO IT LAB Recognition and Learning Algorithm Collaborative Research Chair (Science Tokyo).
+
+This repository is a fork of [V-MoE](https://github.com/google-research/vmoe). We appreciate the original project and its contributors.
