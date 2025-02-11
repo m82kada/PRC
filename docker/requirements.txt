@@ -1,0 +1,13 @@
+git+https://github.com/google-research/vision_transformer.git
+absl-py
+cachetools
+chex
+flax
+ml-collections
+numpy
+scipy
+notebook
+tfds-nightly
+scikit-learn
+matplotlib
+tensorboard-plugin-profile
