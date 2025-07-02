@@ -9,7 +9,8 @@ Masahiro Kada [1], Ryota Yoshihashi [1], Satoshi Ikehata [1][2], Rei Kawakami [1
 
 This repository contains the code for Robustifying Routers Against Input Perturbations for Sparse Mixture-of-Experts Vision Transformers (PRC). This work has been published in [OJSP](https://ieeexplore.ieee.org/document/10858379) and will be presented at ICASSP 2025.
 
-- **Paper:** [10.1109/OJSP.2025.3536853](https://ieeexplore.ieee.org/document/10858379)
+- [Paper (10.1109/OJSP.2025.3536853)](https://ieeexplore.ieee.org/document/10858379)
+- [Project Page](https://m82kada.github.io/portfolio/paper/prc/)
 
 ## Abstract
 Mixture of experts with a sparse expert selection rule has been gaining much attention recently because of its scalability without compromising inference time. However, unlike standard neural networks, sparse mixture-of-experts models 
